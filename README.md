@@ -56,7 +56,4 @@ On first run, the backend seeds 5 employees (Aarav, Priya, Rahul, Neha, Rohan).
 - To use MySQL: add MySQL driver dependency and set datasource in `application.properties`, e.g.
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/ems
-spring.datasource.username=root
-spring.datasource.password=yourpass
-spring.jpa.hibernate.ddl-auto=update
 ```
